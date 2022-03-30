@@ -172,8 +172,11 @@ nav {
 
 /* Footer rules */
 .link-footer {
-
+    /* background-color: rgb(35, 39, 42); */
     /* Debug */
     height: 300px;
-    background-color: coral;
+}
+
+#footer-bg {
+    background-color: rgb(35, 39, 42);
 }
