@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 
     /* Debug */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .container::after {
@@ -27,7 +27,35 @@ body {
 header {
     height: 100px;
     background-color: rgb(49, 97, 224);
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+/* Navigator rules */
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    float: left;
+    margin: 10px 250px;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(35, 39, 42);
+    border-radius: 30px;
+    padding: 8px;
 }
 
 /* Jumbotron rules */
