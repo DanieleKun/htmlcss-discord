@@ -1,3 +1,4 @@
+/* General rules */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,77 @@
 
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    /* Debug */
+    background-color: red;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header rules */
+header {
+    height: 100px;
+    background-color: rgb(49, 97, 224);
+    padding-top: 10px;
+}
+
+/* Jumbotron rules */
+#jumbotron {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}   
+
+#jumbotron .container {
+    width: 60%;
+    text-align: center;
+    
+    /* Debug */
+    background-color: red;
+    height: 300px;
+}
+
+/* Sections rules */
+.columnsx {
+    float: left;
+    width: 60%;
+
+    /* Debug */
+    height: 200px;
+    background-color: red;
+}
+
+.columndx {
+    float: left;
+    width: 40%;
+
+    /* Debug */
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.column-single {
+
+    /* Debug */
+    height: 300px;
+    background-color: aqua;
+}
+
+
+/* Footer rules */
+.link-footer {
+
+    /* Debug */
+    height: 300px;
+    background-color: coral;
 }
