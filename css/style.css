@@ -25,6 +25,11 @@ body {
     clear: both;
 }
 
+.alternative-container {
+    background-color: rgb(246, 246, 246);
+    padding: 30px 0;
+}
+
 /* Header rules */
 header {
     height: 100px;
@@ -58,7 +63,7 @@ nav {
     background-color: white;
     color: rgb(35, 39, 42);
     border-radius: 30px;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 /* Jumbotron rules */
@@ -125,6 +130,8 @@ nav {
     /* background-color: blueviolet; */
 }
 
+
+/* Section content rules */
 .section-title {
     font-size: 50px;
     padding: 30px 0;
@@ -135,14 +142,33 @@ nav {
 }
 
 
-
+/* Big last section */
 .column-single {
+    text-align: center;
+    color: rgb(35, 39, 42);
 
     /* Debug */
-    height: 300px;
-    background-color: aqua;
+    /* height: 300px;
+    background-color: aqua; */
 }
 
+/* Star and button rules */
+.little-stars {
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+}
+
+.little-stars h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.big-button a{
+    background-color: rgb(142, 161, 225);
+    color: white;
+    font-size: 20px;
+}
 
 /* Footer rules */
 .link-footer {
