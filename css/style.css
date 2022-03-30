@@ -101,22 +101,31 @@ nav {
 
 
 /* Sections rules */
-.columnsx {
+.column-img {
     float: left;
     width: 60%;
+    height: auto;
 
     /* Debug */
-    height: 200px;
-    background-color: red;
+    /* height: 200px;
+    background-color: red; */
 }
 
-.columndx {
+.column-text {
     float: left;
     width: 40%;
+    height: auto;
+    color: rgb(35, 39, 42);
 
     /* Debug */
-    height: 200px;
-    background-color: blueviolet;
+    /* height: 200px; */
+    /* background-color: blueviolet; */
+}
+
+.column-text h1 {
+    font-size: 50px;
+    padding-top: 30px;
+
 }
 
 .column-single {
